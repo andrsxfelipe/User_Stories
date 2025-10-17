@@ -11,6 +11,10 @@ public class Repositorio implements IRepositorio{
 
     }
 
+    public void buscar(String busqueda){
+
+    }
+
     @Override
     public void buscarTodos() {
 
