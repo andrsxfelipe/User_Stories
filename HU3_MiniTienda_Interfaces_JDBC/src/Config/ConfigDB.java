@@ -23,8 +23,12 @@ public class ConfigDB {
             URL = props.getProperty("db.url");
             USER = props.getProperty("db.user");
             PASSWORD = props.getProperty("db.password");
+
+            Class.forName(props.getProperty("db.driver"));
         } catch (IOException e){
             throw new RuntimeException("Error cargando configuración de BD", e);
+        } catch (ClassNotFoundException e){
+            throw new RuntimeException("Driver JDBC no encontrado", e);
         }
     }
 

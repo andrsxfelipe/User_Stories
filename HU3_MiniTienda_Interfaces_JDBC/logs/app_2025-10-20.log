@@ -1,0 +1,29 @@
+[2025-10-20 08:16:10] [INFO] === Logger inicializado correctamente === 
+[2025-10-20 08:16:10] [INFO] Listado de productos mostrado 
+[2025-10-20 08:16:52] [INFO] === Logger inicializado correctamente === 
+[2025-10-20 08:16:52] [INFO] Listado de productos mostrado 
+[2025-10-20 08:16:58] [INFO] Listado de productos mostrado 
+[2025-10-20 08:17:01] [INFO] Listado de productos mostrado 
+[2025-10-20 08:17:05] [INFO] Listado de productos mostrado 
+[2025-10-20 08:17:09] [INFO] Listado de productos mostrado 
+[2025-10-20 08:17:16] [INFO] Productos con el nombre 'Co' encontrados 
+[2025-10-20 08:17:21] [INFO] Productos con el nombre 'Co' encontrados 
+[2025-10-20 08:17:34] [WARNING] Intento de intentar actualizar el precio: El ID debe ser un número mayor de 0 
+[2025-10-20 08:32:58] [INFO] === Logger inicializado correctamente === 
+[2025-10-20 08:32:58] [WARNING] Intento de agregar el producto: El producto que intenta agrega ya existe! 
+[2025-10-20 08:33:18] [INFO] === Logger inicializado correctamente === 
+[2025-10-20 08:33:18] [WARNING] Intento de agregar el producto: El producto que intenta agrega ya existe! 
+[2025-10-20 08:33:27] [INFO] Producto agregado: Arroz diana 
+[2025-10-20 08:33:31] [INFO] Listado de productos mostrado 
+[2025-10-20 08:33:36] [INFO] Listado de productos mostrado 
+[2025-10-20 08:33:47] [INFO] Listado de productos mostrado 
+[2025-10-20 08:33:54] [INFO] Precio del producto con id 7 actualizado. 
+[2025-10-20 08:34:00] [INFO] Producto con id 7 actualizado 
+[2025-10-20 08:34:04] [INFO] Listado de productos mostrado 
+[2025-10-20 08:34:15] [INFO] Producto agregado: Pera 
+[2025-10-20 08:34:18] [INFO] Producto con id 8 eliminado 
+[2025-10-20 08:34:25] [WARNING] Intento de buscar un producto: No se encontraron productos 
+[2025-10-20 08:34:31] [INFO] Productos con el nombre 'C' encontrados 
+[2025-10-20 08:37:59] [INFO] === Logger inicializado correctamente === 
+[2025-10-20 08:37:59] [INFO] Listado de productos mostrado 
+[2025-10-20 08:38:15] [WARNING] Intento de eliminar producto: No se encontró un producto con este ID 

@@ -116,7 +116,6 @@ public class Repositorio implements IRepositorio<Producto> {
             }
             return pductos;
         } catch (Exception e) {
-            System.out.println(e.getMessage());
             throw new DataAccessException("Error al consultar los productos", e);
         }
     }
