@@ -11,11 +11,11 @@ public class UIHelper {
         Map<String, JTextField> entradasList = new LinkedHashMap<>();
         Object[] componentes = new Object[campos.length * 2];
         for (int i = 0; i < campos.length; i++) {
-            String etiqueta = campos[i]+" :";
+            String etiqueta = campos[i];
             JTextField campoTexto = new JTextField();
 
             entradasList.put(etiqueta, campoTexto);
-            componentes[i * 2] = campos[i];
+            componentes[i * 2] = campos[i]+":";
             componentes[(i * 2) + 1] = campoTexto;
         }
 
@@ -26,7 +26,7 @@ public class UIHelper {
                 JOptionPane.OK_CANCEL_OPTION
         );
 
-        if (eleccion == JOptionPane.CANCEL_OPTION) {
+        if (eleccion == JOptionPane.OK_OPTION) {
             return entradasList.entrySet()
                     .stream()
                     .collect(Collectors.toMap(
@@ -47,5 +47,12 @@ public class UIHelper {
 
     public static String ingresar(String mensaje){
         return JOptionPane.showInputDialog(mensaje);
+    }
+
+    public static void mostrar(String mensaje){
+        JOptionPane.showMessageDialog(null, mensaje);
+    }
+    public static void mostrar(StringBuilder mensaje){
+        JOptionPane.showMessageDialog(null, mensaje);
     }
 }
